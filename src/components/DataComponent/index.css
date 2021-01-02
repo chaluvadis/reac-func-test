@@ -1,16 +1,20 @@
-.data-component.custom, .btn.custom {
-  border:solid 1px crimson;
+.data-component.custom,
+.btn.custom {
+  border: solid 1px crimson;
 }
 
-.data-component.emp, .btn.emp {
-  border:solid 1px royalblue;
+.data-component.emp,
+.btn.emp {
+  border: solid 1px royalblue;
 }
 
-.data-component-header.emp, .btn.emp {
+.data-component-header.emp,
+.btn.emp {
   background-color: royalblue;
 }
 
-.data-component-header.custom, .btn.custom {
+.data-component-header.custom,
+.btn.custom {
   background-color: crimson;
 }
 
@@ -26,7 +30,7 @@
 
 .data-compoent-content {
   min-height: 300px;
-  padding:5px;
+  padding: 5px;
 }
 
 .data-component-actions {
@@ -55,12 +59,27 @@ ul.data-list {
 }
 
 .data-list-item {
-  padding:1px;
+  padding: 1px;
 }
 
 .data-input {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   min-height: 40px;
   line-height: 40px;
   font-size: 15px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.btn-remove {
+  background-color: red;
+  color: white;
+  padding: 0.25em 0.3em 0.25em 0.3em;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  background-size: 100% 50%;
 }
