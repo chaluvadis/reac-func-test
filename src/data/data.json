@@ -1,0 +1,12 @@
+{
+    "empdata": {
+        "source": "Emp Data Component",
+        "url": "https://google.com",
+        "eventInfo": "click event"
+    },
+    "custdata": {
+        "source": "Custom Data Component",
+        "url": "https://google.com",
+        "eventInfo": "mouse event"
+    }
+}
